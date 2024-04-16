@@ -21938,7 +21938,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const eventApiEndpoint = "https://calandar.hedgybeats.com/event";
+const eventApiEndpoint = "https://calendar.hedgybeats.com/event";
 
 document.addEventListener("DOMContentLoaded", () => {
   const eventDropdown = document.getElementById("eventDropdown");

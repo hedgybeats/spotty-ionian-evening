@@ -3,7 +3,7 @@ import dayGridPlugin from "@fullcalendar/daygrid";
 import interactionPlugin from "@fullcalendar/interaction";
 import { Dropdown } from "bootstrap";
 import "./main.css";
-const eventApiEndpoint = "https://calandar.hedgybeats.com/event";
+const eventApiEndpoint = "https://calendar.hedgybeats.com/event";
 
 document.addEventListener("DOMContentLoaded", () => {
   const eventDropdown = document.getElementById("eventDropdown");

@@ -138,11 +138,15 @@ app.delete('/event/:eventId', (req, res) => {
   });
 });
 
-const hostname = '127.0.0.1';
-const port = 3000;
+// const hostname = '127.0.0.1';
+// const port = 3000;
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+// app.listen(port, hostname, () => {
+//   console.log(`Server running at http://${hostname}:${port}/`);
+// });
+
+app.listen(process.env.PORT, () => {
+  console.log('Listening');
 });
 
 function handleError(err, res){
